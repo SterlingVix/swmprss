@@ -1,0 +1,128 @@
+<style>
+    div.header-div {
+        text-align: center;
+        margin: 1em auto 2em auto;
+    }
+    
+    h3.popup-cta-header-item {
+        color: #777777;
+    }
+    
+    h1.popup-cta-header-item {
+        color: #986EB6;
+    }
+    
+    .popup-cta-flex-container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-content: space-between;
+        align-items: center;
+    }
+    
+    .popup-cta-flex-item {
+        flex: 0 1 auto;
+        align-self: auto;
+        min-width: 0;
+        min-height: auto;
+    }
+    
+    .popup-cta-btn {
+        border: none;
+        background: none;
+        cursor: pointer;
+        padding: 1em 2em;
+        display: inline-block;
+        margin: 15px 30px;
+        outline: none;
+        position: relative;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+    .popup-cta-btn:after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+    .popup-cta-btn-1 {
+        border: 3px solid #986EB6;
+        border-radius: 0.66em;
+        color: #986EB6;
+        overflow: hidden;
+    }
+    
+    .popup-cta-btn-1:after {
+        width: 100%;
+        height: 0;
+        top: 50%;
+        left: 50%;
+        background: #986EB6;
+        opacity: 0;
+        -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+        -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+        -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+        transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    }
+    
+    .popup-cta-btn-1:hover,
+    .popup-cta-btn-1:active {
+        color: #fff;
+    }
+    
+    .popup-cta-btn-1:hover:after {
+        height: 260%;
+        opacity: 1;
+    }
+    
+    .popup-cta-btn-1:active:after {
+        height: 400%;
+        opacity: 1;
+    }
+    
+    .popup-cta-btn-2 {
+        color: #fff;
+        background: #976db6;
+        box-shadow: 0 6px #7d5997;
+        -webkit-transition: none;
+        -moz-transition: none;
+        transition: none;
+        border-radius: 0.66em;
+    }
+    
+    .popup-cta-btn-2:hover {
+        box-shadow: 0 4px #69527a;
+        top: 2px;
+    }
+    
+    .popup-cta-btn-2:active {
+        box-shadow: 0 0 #69527a;
+        top: 6px;
+    }
+</style>
+<div class="header-div">
+    <h3 class="popup-cta-header-item">Hey, I don't want your e-mail</h3>
+    <h1 class="popup-cta-header-item">I just want to put you to sleep</h1>
+</div>
+<div class="popup-cta-flex-container">
+    <button type="button" onclick="window.location.assign('http://www.sleepwithmepodcast.com/');" class="popup-cta-btn popup-cta-btn-2 popup-cta-flex-item" title="Updated Sundays, Tuesdays, and Thursdays">Newest episodes</button>
+</div>
+<div class="popup-cta-flex-container">
+    <button type="button" onclick="window.open('https://itunes.apple.com/podcast/id740675898?mt=2&ls=1', '_blank');" class="popup-cta-btn popup-cta-btn-2 popup-cta-flex-item" title="To help uSleep">Subscribe on iTunes</button>
+    <button type="button" onclick="window.open('http://subscribeonandroid.com/sleepwithmepodcast.libsyn.com/rss', '_blank');" class="popup-cta-btn popup-cta-btn-2 popup-cta-flex-item" title="And dream of electric sheep">Subscribe on Android</button>
+</div>
+<div class="popup-cta-flex-container">
+    <button type="button" onclick="window.location.assign('http://www.sleepwithmepodcast.com/contact/');" class="popup-cta-btn popup-cta-btn-2 popup-cta-flex-item" title="Unless you're a brain-bot">Contact Scooter</button>
+</div>
+<div class="popup-cta-flex-container">
+    <button type="button" onclick="window.open('https://www.youtube.com/watch?v=l17QMqQpbZE', '_blank');" class="popup-cta-btn popup-cta-btn-2 popup-cta-flex-item" title="Yes, and we're 65% subliminal message-free">Does this really work?</button>
+    <button type="button" onclick="window.location.assign('http://www.sleepwithmepodcast.com/contact');" class="popup-cta-btn popup-cta-btn-2 popup-cta-flex-item" title="It's easy!">How do I listen to a podcast?</button>
+</div>
+<div class="popup-cta-flex-container">
+    <button type="button" onclick="window.open('http://www.amazon.com/?tag=slewitmepod-20', '_blank');" class="popup-cta-btn popup-cta-btn-2 popup-cta-flex-item" title="Don't tell James Cash Penny and Richard Warren Sears!">Amazon.com affiliate link</button>
+</div>

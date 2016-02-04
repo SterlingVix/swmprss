@@ -1,0 +1,201 @@
+body * {
+    font-size: 18px;
+}
+
+h3.popup-cta-header-item {
+    font-size: 24px;
+}
+
+h1.popup-cta-header-item {
+    font-size: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.header-div {
+    text-align: center;
+    margin: 0.5em auto 1em auto;
+}
+
+h3.popup-cta-header-item {
+    /*color: #777777;*/
+    /*color: #9d5857;*/
+    margin: 0.33em auto;
+}
+
+h1.popup-cta-header-item {
+    /*color: #986EB6;*/
+    margin: 0.66em auto 0.33em;
+    font-weight: 600;
+}
+
+.popup-cta-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+
+.popup-cta-flex-item {
+    flex: 0 1 auto;
+    align-self: auto;
+    min-width: 0;
+    min-height: auto;
+}
+
+.popup-cta-btn {
+    border: none;
+    cursor: pointer;
+    /*padding: 1em 2em;*/
+    padding: 0.8em 1.4em;
+    /*margin: 15px 30px;*/
+    margin: 0.8em 1.6em;
+    outline: none;
+    position: relative;
+    color: #fff;
+    background: #976db6;
+    box-shadow: 0 6px #7d5997;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    border-radius: 0.66em;
+}
+
+.popup-cta-btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.popup-cta-btn:hover {
+    box-shadow: 0 4px #69527a;
+    top: 2px;
+}
+
+.popup-cta-btn:active {
+    box-shadow: 0 0 #69527a;
+    top: 6px;
+}
+
+.ig_popup.ig_air-mail div.ig_button,
+.ig_popup.ig_air-mail input[type="submit"],
+.ig_popup.ig_air-mail input[type="button"] {
+    text-transform: none;
+    border-radius: 0.6em;
+    margin: 1.5em auto 1.25em auto;
+    padding: 0.66em .15em 0.66em;
+    /*background: hsl(6, 78%, 57%); */
+    /*color: hsl(0, 0%, 100%);*/
+    /*border-top: 3px solid hsl(6, 63%, 46%);*/
+    /*border-bottom: 3px solid hsl(6, 63%, 46%);*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+* Colors 
+**/
+
+h3.popup-cta-header-item {
+    /*color: rgb(119, 119, 119);*/
+    /*color: rgb(157, 88, 87);*/
+    color: rgb(147, 106, 105);
+    /*filter: hue-rotate(00deg);*/
+    /*-webkit-filter: hue-rotate(00deg);*/
+}
+
+h1.popup-cta-header-item {
+    /*color: rgb(66, 139, 202);*/
+    color: rgb(152, 110, 182);
+    /*filter: hue-rotate(00deg);*/
+    /*-webkit-filter: hue-rotate(00deg);*/
+}
+
+.popup-cta-btn {
+    /*background: rgb(151, 109, 182);*/
+    /*box-shadow: 0 6px rgb(125, 89, 151);*/
+    background: rgb(68, 140, 202);
+    box-shadow: 0 6px rgb(62, 120, 171);
+    /*filter: hue-rotate(00deg);*/
+    /*-webkit-filter: hue-rotate(00deg);*/
+}
+
+.popup-cta-btn:hover {
+    /*box-shadow: 0 4px rgb(105, 82, 122);*/
+    box-shadow: 0 4px rgb(56, 105, 147);
+    /*filter: hue-rotate(00deg);*/
+    /*-webkit-filter: hue-rotate(00deg);*/
+}
+
+.popup-cta-btn:active {
+    /*box-shadow: 0 0 rgb(105, 82, 122);*/
+    box-shadow: 0 0 rgb(56, 105, 147);
+    /*filter: hue-rotate(00deg);*/
+    /*-webkit-filter: hue-rotate(00deg);*/
+}
+
+.ig_popup.ig_air-mail div.ig_button,
+.ig_popup.ig_air-mail input[type="submit"],
+.ig_popup.ig_air-mail input[type="button"] {
+    /*background: rgb(231, 77, 60); */
+    /*background: rgb(68, 140, 202);*/
+    background: rgb(151, 109, 182);
+    color: rgb(255, 255, 255);
+    /*border-top: 3px solid rgb(191, 58, 43);*/
+    /*border-top: 3px solid rgb(74, 128, 176);*/
+    box-shadow: 0 6px rgb(141, 100, 172);
+    /*border-bottom: 3px solid rgb(191, 58, 43);*/
+    /*border-bottom: 3px solid rgb(63, 110, 151);*/
+    /*filter: hue-rotate(00deg);*/
+    /*-webkit-filter: hue-rotate(00deg);*/
+      font-weight: normal;
+  font-family: 'Poly', serif;
+}
+
+.ig_popup.ig_air-mail div.ig_button:hover,
+.ig_popup.ig_air-mail input[type="submit"]:hover,
+.ig_popup.ig_air-mail input[type="button"]:hover {
+    box-shadow: 0 4px rgb(130, 95, 165);
+    top: 2px;
+}
+
+.ig_popup.ig_air-mail div.ig_button:active,
+.ig_popup.ig_air-mail input[type="submit"]:active,
+.ig_popup.ig_air-mail input[type="button"]:active {
+    box-shadow: 0 0 rgb(130, 95, 165);
+    top: 6px;
+}
